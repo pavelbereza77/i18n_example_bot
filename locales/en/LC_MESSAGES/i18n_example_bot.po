@@ -1,0 +1,86 @@
+# English translations for i18n_example_bot.
+# Copyright (C) 2024 AdvancedBotsCourse
+# This file is distributed under the same license as the i18n_example_bot
+# project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2024.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: i18n_example_bot 0.1\n"
+"Report-Msgid-Bugs-To: kms101@yandex.ru\n"
+"POT-Creation-Date: 2024-03-03 14:41+0300\n"
+"PO-Revision-Date: 2024-03-03 15:28+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.14.0\n"
+
+#: handlers/other.py:17
+msgid "Данный тип апдейтов не поддерживается методом send_copy"
+msgstr "This type of update is not supported by the send_copy method"
+
+#: handlers/user.py:19
+msgid "Добавить 1 товар"
+msgstr "Add 1 item"
+
+#: handlers/user.py:23
+msgid "Добавить 3 товара"
+msgstr "Add 3 items"
+
+#: handlers/user.py:27
+msgid "Убрать 1 товар"
+msgstr "Remove 1 item"
+
+#: handlers/user.py:42
+msgid ""
+"Привет, {username}.\n"
+"\n"
+"Добавьте товары в корзину"
+msgstr ""
+"Hello, {username}.\n"
+"\n"
+"Add items to cart"
+
+#: handlers/user.py:52
+msgid ""
+"Это бот для демонстрации процесса интернационализации\n"
+"\n"
+"Доступные команды:\n"
+"\n"
+"/start - перезапуск бота\n"
+"/help - справка по работе бота"
+msgstr ""
+"This is a bot to demonstrate the internationalization process\n"
+"\n"
+"Available commands:\n"
+"\n"
+"/start - restart the bot\n"
+"/help - help with the bot"
+
+
+#: handlers/user.py:66
+msgid "Вы удалили товар"
+msgstr "You have deleted an item"
+
+#: handlers/user.py:68 handlers/user.py:88
+msgid "В корзине {} товар"
+msgid_plural "В корзине {} товаров"
+msgstr[0] "There is {} item in the cart"
+msgstr[1] "There are {} items in the cart"
+
+#: handlers/user.py:73
+msgid "В корзине пусто"
+msgstr "Cart is empty"
+
+#: handlers/user.py:83
+msgid "Вы добавили товар"
+msgstr "You have added an item"
+
+#: handlers/user.py:86
+msgid "Вы добавили товары"
+msgstr "You have added items"
+
